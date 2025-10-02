@@ -1,84 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Terms of Service — BalanceBot#8309</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BankoBot9236 — Terms of Service</title>
   <style>
-    :root { --bg:#0f1220; --card:#171a2b; --text:#e9ecf1; --muted:#a9b2c7; --accent:#5865f2; }
-    * { box-sizing: border-box; }
-    body { margin:0; font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji"; background:var(--bg); color:var(--text); }
-    header { padding:48px 20px 24px; text-align:center; background:linear-gradient(180deg, rgba(88,101,242,.15), transparent 60%); }
-    header h1 { margin:0 0 8px; font-size:32px; }
-    header p { margin:0; color:var(--muted); }
-    main { max-width:900px; margin:0 auto; padding:24px 20px 64px; }
-    .card { background:var(--card); border:1px solid rgba(255,255,255,.07); border-radius:16px; padding:24px; margin-bottom:16px; }
-    h2 { margin:0 0 12px; font-size:22px; }
-    ul { margin:8px 0 0 18px; }
-    a { color:var(--accent); text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    footer { text-align:center; color:var(--muted); padding:24px; border-top:1px solid rgba(255,255,255,.07); }
-    .badge { display:inline-block; padding:4px 10px; border-radius:999px; background:rgba(88,101,242,.15); color:var(--accent); font-weight:600; }
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#7dd3fc;--muted:#94a3b8;--text:#e6eef6}
+    *{box-sizing:border-box}
+    body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;line-height:1.5;margin:0;background:linear-gradient(180deg,var(--bg),#071022);color:var(--text);padding:24px}
+    .container{max-width:900px;margin:24px auto;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);padding:28px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    header{display:flex;gap:16px;align-items:center}
+    .logo{width:64px;height:64px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#60a5fa);display:flex;align-items:center;justify-content:center;font-weight:700;color:#022;box-shadow:0 4px 12px rgba(125,211,252,0.14)}
+    h1{margin:0;font-size:20px}
+    p.lead{color:var(--muted);margin:6px 0 18px}
+    nav{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+    nav a{background:rgba(255,255,255,0.02);padding:8px 10px;border-radius:8px;text-decoration:none;color:var(--accent);font-weight:600;font-size:13px}
+    section{margin-top:18px}
+    h2{font-size:16px;margin:10px 0}
+    .muted{color:var(--muted)}
+    ul{margin:8px 0 8px 20px}
+    .small{font-size:13px;color:var(--muted)}
+    footer{margin-top:26px;border-top:1px dashed rgba(255,255,255,0.03);padding-top:16px;display:flex;justify-content:space-between;align-items:center}
+    .btn{display:inline-block;background:var(--accent);color:#00243a;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:700}
+    @media (max-width:600px){.container{padding:18px}.logo{width:56px;height:56px}}
   </style>
 </head>
 <body>
-  <header>
-    <div class="badge">BalanceBot#8309</div>
-    <h1>Terms of Service</h1>
-    <p>Effective Date: <strong>31/8/2025</strong> • Contact: <a href="mailto:Imranrayyanshaikh123@gamil.com">Imranrayyanshaikh123@gamil.com</a></p>
-  </header>
+  <div class="container">
+    <header>
+      <div class="logo">B</div>
+      <div>
+        <h1>BankoBot9236 — Terms of Service</h1>
+        <p class="lead">Effective date: October 2, 2025 — These Terms of Service ("Terms") govern your use of BankoBot9236 (the "Bot"). By using the Bot you agree to these Terms.</p>
+      </div>
+    </header>
 
-  <main>
-    <section class="card">
+    <nav>
+      <a href="#acceptance">Acceptance</a>
+      <a href="#use">Use & Rules</a>
+      <a href="#economy">Economy</a>
+      <a href="#data">Data</a>
+      <a href="#liability">Liability</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="introduction">
+      <p class="small muted">This page provides the Terms of Service for BankoBot9236, an economy-focused Discord bot. The Bot is provided by its developer/owner ("Developer"). If you need legal advice, consult a qualified attorney; this document is a template and not legal counsel.</p>
+    </section>
+
+    <section id="acceptance">
       <h2>1. Acceptance of Terms</h2>
-      <p>By using BalanceBot#8309 (“the Bot”) on Discord, you agree to comply with these Terms of Service (“Terms”) and our <a href="https://balancebotdiscord.github.io/PrivacyPolicy/">Privacy Policy</a>. If you do not agree, do not use the Bot.</p>
+      <p>By adding, using, or interacting with the Bot you accept and agree to be bound by these Terms. If you do not agree, do not add or use the Bot.</p>
     </section>
 
-    <section class="card">
-      <h2>2. Bot Features</h2>
+    <section id="eligibility">
+      <h2>2. Eligibility</h2>
+      <p>You must be at least 13 years old (or the minimum age required in your jurisdiction) to use the Bot. If you are under 18, you must have permission from a parent or guardian.</p>
+    </section>
+
+    <section id="use">
+      <h2>3. Permitted Use & Rules</h2>
       <ul>
-        <li>The Bot provides economy features, including virtual balances, daily rewards, and currency management commands like <code>/balance</code>, <code>/daily</code>, and <code>/addmoney</code>.</li>
-        <li>All virtual currency is for in-bot purposes only and has no real-world value.</li>
+        <li>The Bot is provided for entertainment and community economy functions on Discord servers.</li>
+        <li>You agree not to use the Bot to harass, impersonate, defraud, or engage in illegal activity.</li>
+        <li>Do not attempt to reverse-engineer, tamper with, or exploit the Bot, its commands, or its APIs.</li>
+        <li>Server owners are responsible for setting and enforcing local rules for the Bot on their servers.</li>
       </ul>
     </section>
 
-    <section class="card">
-      <h2>3. User Responsibilities</h2>
+    <section id="economy">
+      <h2>4. Economy, Currency & Transactions</h2>
+      <p>The Bot operates a virtual, in-server currency and economy. This currency has no real-world value and cannot be redeemed for money, goods, or services unless explicitly stated by the Developer in writing.</p>
       <ul>
-        <li>Do not attempt to exploit, hack, or manipulate the Bot or its economy system.</li>
-        <li>Follow Discord’s Terms of Service and Community Guidelines while using the Bot.</li>
-        <li>Do not use the Bot for illegal or malicious activities.</li>
+        <li>Balances, transactions, and records are maintained by the Bot and may be subject to occasional corrections.</li>
+        <li>The Developer reserves the right to modify game mechanics, prices, or rewards at any time.</li>
+        <li>Fraud, exploiting bugs, or using multiple accounts to manipulate the economy may result in balance adjustments, account restrictions, or bans.</li>
       </ul>
     </section>
 
-    <section class="card">
-      <h2>4. Limitations & Disclaimers</h2>
-      <p>The Bot is provided "as-is" and "as available." We do not guarantee uptime, uninterrupted service, or accuracy of data. You use the Bot at your own risk. We are not liable for any loss, damages, or issues caused by the use of the Bot.</p>
+    <section id="refunds">
+      <h2>5. Purchases, Donations & Refunds</h2>
+      <p>If the Bot offers paid features, donations, or premium roles: such purchases are subject to the policies of the payment provider (e.g., Discord, Patreon, PayPal). Refunds are handled according to the payment provider's rules. The Developer may offer refunds at their discretion but is not obligated to do so beyond the payment provider's policies.</p>
     </section>
 
-    <section class="card">
-      <h2>5. Data & Privacy</h2>
-      <p>Your data is handled according to our <a href="https://balancebotdiscord.github.io/PrivacyPolicy/">Privacy Policy</a>. By using the Bot, you consent to collection and use of data as described therein.</p>
+    <section id="data">
+      <h2>6. Data Collection & Privacy</h2>
+      <p>The Bot may collect, store, and process the following information: Discord user ID, username, server ID, role/permission data, economy balances, and command usage logs. The Developer uses this data to provide and improve the Bot.</p>
+      <p class="small muted">For complete details, see the Bot's Privacy Policy (if available). By using the Bot you consent to the collection and processing described herein.</p>
     </section>
 
-    <section class="card">
-      <h2>6. Termination</h2>
-      <p>We reserve the right to restrict or remove access to the Bot for any user violating these Terms or abusing the Bot. Termination does not affect accrued rights or obligations.</p>
+    <section id="moderation">
+      <h2>7. Moderation & Enforcement</h2>
+      <p>The Developer and server owners may take actions (warnings, balance resets, temporary or permanent bans) to protect the integrity of the Bot and the community. Appeals should be sent to the contact information below.</p>
     </section>
 
-    <section class="card">
-      <h2>7. Modifications</h2>
-      <p>We may modify or update these Terms at any time. The “Effective Date” reflects the latest version. Continued use of the Bot indicates acceptance of any changes.</p>
+    <section id="liability">
+      <h2>8. Limitation of Liability</h2>
+      <p>To the fullest extent permitted by law, the Developer is not liable for any indirect, incidental, special, consequential, or punitive damages arising from your access to or use of the Bot. The Bot is provided "as is" without warranties of any kind.</p>
     </section>
 
-    <section class="card">
-      <h2>8. Contact</h2>
-      <p>For questions regarding these Terms, contact: <a href="mailto:Imranrayyanshaikh123@gamil.com">Imranrayyanshaikh123@gamil.com</a></p>
+    <section id="changes">
+      <h2>9. Changes to These Terms</h2>
+      <p>The Developer may update these Terms at any time. When changes are material, the Developer will make a reasonable effort to notify server owners or post an announcement. Continued use of the Bot after changes means you accept the new Terms.</p>
     </section>
-  </main>
 
-  <footer>
-    &copy; 2025 BalanceBot#8309 • Terms of Service
-  </footer>
+    <section id="termination">
+      <h2>10. Suspension & Termination</h2>
+      <p>The Developer may suspend or terminate access to the Bot (or certain features) for any user or server at any time and for any reason, including suspected abuse or violation of these Terms.</p>
+    </section>
+
+    <section id="contact">
+      <h2>11. Contact & Support</h2>
+      <p>If you need help, want to appeal a moderation decision, or report bugs, reach out to the Developer:</p>
+      <ul>
+        <li>Invite the Bot: <a href="https://discord.com/oauth2/authorize?client_id=1412425204604469300&permissions=8&integration_type=0&scope=bot+applications.commands" target="_blank">Invite BankoBot9236</a></li>
+        <li>Support / Server: <span class="muted">(replace with your support server invite)</span></li>
+        <li>Email: <a href="mailto:imranrayyanshaikh123@gmail.com">imranrayyanshaikh123@gmail.com</a></li>
+      </ul>
+      <p class="small muted">Tip: replace the placeholder support invite with your actual support server invite.</p>
+    </section>
+
+    <footer>
+      <div class="small muted">Last updated: October 2, 2025</div>
+      <div>
+        <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1412425204604469300&permissions=8&integration_type=0&scope=bot+applications.commands" target="_blank">Invite BankoBot9236</a>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
